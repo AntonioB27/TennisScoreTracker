@@ -1,0 +1,35 @@
+{
+  "matches": {
+    "match_001": {
+      "date": "2026-03-09",
+      "player1": "Alice",
+      "player2": "Bob",
+      "sets_to_win": 2,
+      "status": "completed",
+      "score": {
+        "sets": [
+          { "player1": 6, "player2": 3 },
+          { "player1": 7, "player2": 5 }
+        ]
+      },
+      "winner": "Alice"
+    },
+    "match_002": {
+      "date": "2026-03-09",
+      "player1": "Carlos",
+      "player2": "Diana",
+      "sets_to_win": 2,
+      "status": "in_progress",
+      "score": {
+        "sets": [
+          { "player1": 6, "player2": 4 }
+        ],
+        "current_set": {
+          "games": { "player1": 3, "player2": 2 },
+          "current_game": { "player1": 40, "player2": 30 }
+        }
+      },
+      "winner": null
+    }
+  }
+}
