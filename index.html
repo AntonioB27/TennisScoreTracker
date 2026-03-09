@@ -14,16 +14,16 @@
 
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-    import { getDatabase, ref, onValue } from "https://tennis-score-tracker-iot-default-rtdb.europe-west1.firebasedatabase.app/";
+    import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
 
     const firebaseConfig = {
-    apiKey: "AIzaSyDo8Ll_ZII4Z95wn5Ka-awA5KdOjQW5iBc",
-    authDomain: "tennis-score-tracker-iot.firebaseapp.com",
-    projectId: "tennis-score-tracker-iot",
-    storageBucket: "tennis-score-tracker-iot.firebasestorage.app",
-    messagingSenderId: "418141049736",
-    appId: "1:418141049736:web:7ef5037b1b3cff6f45203d",
-    measurementId: "G-WHDNJ8WKWD"
+      apiKey: "AIzaSyDo8Ll_ZII4Z95wn5Ka-awA5KdOjQW5iBc",
+      authDomain: "tennis-score-tracker-iot.firebaseapp.com",
+      databaseURL: "https://tennis-score-tracker-iot-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "tennis-score-tracker-iot",
+      storageBucket: "tennis-score-tracker-iot.appspot.com",
+      messagingSenderId: "418141049736",
+      appId: "1:418141049736:web:7ef5037b1b3cff6f45203d"
     };
 
     const app = initializeApp(firebaseConfig);
